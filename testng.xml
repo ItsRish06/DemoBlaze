@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="StepDefinition.RegisterStepDef"/>
+            <class name="StepDefinition.LoginStepDef"/>
+            <class name="com.base.Base"/>
+            <class name="StepDefinition.SearchStepDef"/>
+            <class name="MyRunner.MyRunner"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
