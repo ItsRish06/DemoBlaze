@@ -3,10 +3,6 @@
 <suite name="Suite">
     <test thread-count="5" name="Test">
         <classes>
-            <class name="StepDefinition.RegisterStepDef"/>
-            <class name="StepDefinition.LoginStepDef"/>
-            <class name="com.base.Base"/>
-            <class name="StepDefinition.SearchStepDef"/>
             <class name="MyRunner.MyRunner"/>
         </classes>
     </test> <!-- Test -->

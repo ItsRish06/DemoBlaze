@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 311.087 s <<< FAILURE! - in TestSuite
+MyRunner.MyRunner.runScenario["Test Buy PopUp Window", "Optional[DemoBlaze Buy Function]"](1)  Time elapsed: 14.809 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Place order] but found [Place order
+×]
+
+MyRunner.MyRunner.runScenario["Test online Payment Function", "Optional[DemoBlaze Buy Function]"](2)  Time elapsed: 7.933 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'b-Validate successful purchase' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("b-Validate successful purchase")
+public void b_validate_successful_purchase() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+MyRunner.MyRunner.runScenario["Test online Payment Function", "Optional[DemoBlaze Buy Function]"](3)  Time elapsed: 7.808 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'b-Validate successful purchase' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("b-Validate successful purchase")
+public void b_validate_successful_purchase() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](4)  Time elapsed: 7.688 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](5)  Time elapsed: 7.454 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](6)  Time elapsed: 16.214 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](7)  Time elapsed: 22.193 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](8)  Time elapsed: 41.115 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](9)  Time elapsed: 39.88 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='orderModal']/div/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-61Q59I9', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bab737d6ecdb881fd7129aa7b7856b2
+
+MyRunner.MyRunner.runScenario["Test Login Functionality", "Optional[DemoBlaze Login Functionality]"](11)  Time elapsed: 33.363 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: unhandled inspector error: {"code":-32000,"message":"No target with given id"}
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-61Q59I9', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 720825fd023bc97847796399cfa6c288
+
